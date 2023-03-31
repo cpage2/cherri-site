@@ -9,6 +9,8 @@ Live Demo: https://cpage2.github.io/cherri-site/index.html
 
 Project is a website for a made up artist Cherri. Current live pages include home, tour dates, shop, and contact. 
 
+** As this was a project made in 2019 and I am revisiting it, changes are being made.
+
 
 # Technologies Used
 
