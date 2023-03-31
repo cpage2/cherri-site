@@ -5,7 +5,7 @@ body{
   background-attachment: fixed;
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 960px) and (max-width: 1700px) {
   body {
     background-image: url("daze.jpg");
     background-position: center;
@@ -16,7 +16,7 @@ body{
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width:640px) and (max-width: 960px){
   body {
     background-image: url("dazem.jpg");
     
@@ -143,29 +143,11 @@ table{
 
 
 
-
-footer{
-  position: static !important;
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------FOOTER---------------------------------------*/
 
 footer{
 	/*Keeps footer a certain distance away*/
-	position: absolute;
+	position: fixed;
   bottom: 0;
   width: 100%;
 	color: #ffffff;
@@ -199,16 +181,12 @@ p.cp a:hover{
 	color: #d3d2ce;
 }
 
-
-
-@media screen and (max-width: 960px) {
-  footer {
-    top: 350px;
-    position: relative;
-    
+@media screen and (max-height:500px) {
+  footer{
+    position: relative !important;
   }
+  
 }
-
 
 @media screen and (max-width: 450px) {
   div>i {
@@ -217,4 +195,6 @@ p.cp a:hover{
   		 padding-right: 10px;
     
   }
+
+
 }
