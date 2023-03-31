@@ -1,7 +1,7 @@
 # Cherri Website 
 
 
-Live Demo: 
+Live Demo: https://cpage2.github.io/cherri-site/index.html
 
 ![Cherri Website](cherri%20screenshot.png)
 
