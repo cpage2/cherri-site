@@ -7,7 +7,7 @@ body{
 	background-attachment: fixed;
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and(min-width: 960px) and (max-width: 1700px)  {
   body {
     background-image: url("daze.jpg");
     background-position: center;
@@ -18,7 +18,7 @@ body{
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width:640px) and (max-width: 960px) {
   body {
     background-image: url("dazem.jpg");
     
@@ -76,7 +76,7 @@ li>a:hover{
 
 /* If the screen size is 1700px wide or less, set the font-size to 80% and shorten
 menu padding  */
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 960px) and (max-width: 1700px) {
   .menu li {
     font-size: 80%;
     padding-right: 40px;
@@ -88,7 +88,7 @@ menu padding  */
 
 
 /* If the screen size is 960px wide or less, set to block  */
-@media screen and (max-width: 960px) {
+@media screen and (min-width:640px) and (max-width: 960px) {
   .menu li {
     font-size: 80%;
     display: block;
@@ -138,7 +138,7 @@ p.date{
 }
 
 /* If the screen size is 960px wide or less, set to block  */
-@media screen and (max-width: 960px) {
+@media screen and(min-width:640px) and (max-width: 960px){
   .content {
    padding-top: 50px;
    text-align: center;
@@ -197,7 +197,7 @@ p.cp a:hover{
 
 
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width:640px) and (max-width: 960px) {
   footer {
     top: 350px;
     position: relative;
