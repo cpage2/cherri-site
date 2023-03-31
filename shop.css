@@ -1,0 +1,158 @@
+/*--------------------MENU-----------------------*/
+.navbar-brand{
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: .15em;
+	color: black;
+	
+
+}
+
+.nav-link{
+	color: black;
+	font-family: Didot, serif;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-link {
+  	font-size: 80%;
+  	padding-right: 7px;
+  	padding-left:5px;
+   
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+  	font-size: 90%;
+   
+  }
+}
+
+
+
+
+
+
+
+/*----------------------CONTENT---------------------*/
+.content{
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 300px;
+}
+
+h1{
+	font-family: 'Work Sans',sans-serif;
+	letter-spacing: .15em;
+	font-weight: 200;
+	text-align: center;
+	font-size: 60px;
+}
+
+
+
+img{
+	height: 280px;
+	width: auto;
+	}
+
+.products{
+
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+
+
+}
+
+
+.cd1, .cd2, .cd3{
+/*------Centers Elements and display side by side-----*/
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left:10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------FOOTER------------------------*/
+footer{
+	
+	position: static;
+	  
+	bottom: 200;
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+}
+
+
+/*-----Social media icons----------*/
+div>i{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 1.2rem;
+}
+
+/*----------Copyright---------*/
+
+p.cp{
+	padding-top: 10px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+p.cp a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+p.cp a:hover{
+	color: #d3d2ce;
+}
+
+@media screen and (max-width: 960px) {
+  footer {
+    top: 350px;
+    position: relative;
+    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div>i {
+  	
+  	padding-right: 10px;
+  	padding-left: 10px;
+   
+  }
+}
+
+
+
+
+
+
+
+
