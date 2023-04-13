@@ -147,7 +147,7 @@ table{
 
 footer{
 	/*Keeps footer a certain distance away*/
-	position: relative;
+	/* position: relative; */
   bottom: 0;
   width: 100%;
 	color: #ffffff;
